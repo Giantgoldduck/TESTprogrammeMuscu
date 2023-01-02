@@ -1,0 +1,32 @@
+
+/********Oeuf logo************/
+svg {
+    height: 50px;
+    width: 50px;
+}
+
+/******Main img******/
+
+main img {
+    position: relative;
+}
+
+main h1 {
+    position: absolute;
+    right: 0;
+    top: 300px;
+    color: white;
+    margin-right: 150px;
+    font-size: 4rem;
+}
+
+@media screen and  (max-width: 550px) {
+    main h1 {
+        font-size: 1rem;
+        right: 0;
+        top: 280px;
+        margin-right: 50px;
+    }
+}
+    
+
