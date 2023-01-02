@@ -30,3 +30,10 @@ main h1 {
 }
     
 
+.container-fluid .card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+main .card {
+    margin-bottom: 50px;
+}
